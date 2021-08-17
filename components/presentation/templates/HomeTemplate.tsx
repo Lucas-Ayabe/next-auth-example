@@ -5,10 +5,12 @@ import Layout from "../molecules/Layout";
 const HomeTemplate = () => {
   return (
     <Layout>
-      <h1>Home</h1>
-      <Link href="/secret" passHref>
-        <a>Go to secret content</a>
-      </Link>
+      <div className="flow">
+        <h1>Home</h1>
+        <Link href="/secret" passHref>
+          <a className="button">Go to secret content</a>
+        </Link>
+      </div>
     </Layout>
   );
 };

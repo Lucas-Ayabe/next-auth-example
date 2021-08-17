@@ -40,6 +40,14 @@ a {
   margin-top: 1em;
 }
 
+.row {
+  display: flex;
+}
+
+.row > * + * {
+  margin-left: 1em;
+}
+
 .cover {
   display: flex;
   flex-direction: column;
